@@ -7,6 +7,8 @@
   "private": true,
   "devDependencies": {
     "express": "^4.17.1"
+  },
+  "scripts":{
+   "start": "node index.js" 
   }
-  
 }
