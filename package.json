@@ -5,10 +5,10 @@
   "author": "mevin",
   "license": "MIT",
   "private": true,
-  "devDependencies": {
-    "express": "^4.17.1"
+  "scripts": {
+    "start": "node index.js"
   },
-  "scripts":{
-   "start": "node index.js" 
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
