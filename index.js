@@ -6,7 +6,6 @@ const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3421
 
 app.use(bodyParser.urlencoded({extended: false}))
-
 app.use("/", indexRouter)
 app.use("/user", newUser)
 
